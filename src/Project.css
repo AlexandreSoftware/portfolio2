@@ -1,0 +1,50 @@
+.Projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+.Projects-container .project{
+    font-size: 3vh;
+    width: 30vw;
+    height: 50vh;
+    margin: 2%;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0;
+    text-align: center;
+}
+.Projects-container .project .content-image{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 20%;
+}
+.Projects-container .project .title{
+    height: 10%;
+    width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    
+}
+.Projects-container .project .content-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    height: 27%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 80%;
+}
+.Projects-container .project .link-container{
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 2vh;
+}
