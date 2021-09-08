@@ -1,0 +1,10 @@
+
+.skills-container{
+    margin-top: 20%;
+    color: black;
+    text-align: center;
+}
+.skills-container li{
+    text-align: start;
+}
+
